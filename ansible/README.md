@@ -2,7 +2,7 @@
 
 Software management configuration using ansible.
 
-Operation System: Red Hat Enterprise Linux 8
+Operation System: Centos Linux 8
 
 Softwares:
 
@@ -18,7 +18,7 @@ Softwares:
 
 Choose where to install ansbile, it can be either from your:
 1. remotely on your laptop (your own choice of OS)
-2. locally on the ec2 instance created.
+
 
 # To test connection to the hosts
 
