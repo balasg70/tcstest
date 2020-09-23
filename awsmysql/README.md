@@ -23,3 +23,16 @@ shell_script - (optional) a shell script template that will be run from the ephe
 sql_script - (optional) a SQL script that will be run from the ephemeral instance against a MySQL/Aurora RDS DB
 
 instance_type - (optional, default t2.micro) ephemeral instance type
+
+A Terraform module to create an Amazon Web Services (AWS) RDS MYSQL .
+
+## Usage
+
+This module creates a RDS alongside a variety of related resources,
+
+
+- RDS Instance resources
+- DB Root Volumen Block
+- Mysql scripts
+
+After running this terraform modules, Need to restart the RDS services on AWS cloud. 
