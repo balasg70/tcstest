@@ -104,5 +104,3 @@ variable "aws_profile" {
 variable "test_results_bucket_name" {
 }
 
-
-
