@@ -7,7 +7,7 @@ This repository stores the files for provisioning a production like environment 
 Prerequisites
 There are only two prerequisites for this:
 
-1.Terraform – Installation instructions are covered in my previous blog here.
+1.Terraform – Installation instructions on your desktop to execute this terraform scripts.
 
 2.Free account with AWS. You can register for free Tier AWS account here.
 
