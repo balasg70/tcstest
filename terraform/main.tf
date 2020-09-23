@@ -149,7 +149,7 @@ resource "aws_instance" "EC2" {
   availability_zone           = var.availability_zones[0]
   ebs_optimized               = var.ec2_ebs_optimized
   instance_type               = var.ec2_instance_type
-  key_name                    = var.key_name
+  key_name                    = "${aws_key_pair.generated_key.key_name}"
   monitoring                  = true
   subnet_id                   = aws_subnet.public[0].id
   associate_public_ip_address = true
@@ -179,5 +179,16 @@ tags = merge(
 var.tags
 )
 }
+
+resource "tls_private_key" "example" {
+  algorithm = "RSA"
+  rsa_bits  = 4096
+}
+
+resource "aws_key_pair" "generated_key" {
+  key_name   = "${var.key_name}"
+  public_key = "${tls_private_key.example.public_key_openssh}"
+}
+
 
 
