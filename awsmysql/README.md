@@ -40,5 +40,8 @@ After running this terraform modules, Need to restart the RDS services on AWS cl
 To run this example you need to execute:
 
 $ terraform init
+
 $ terraform plan
+
 $ terraform apply
+
