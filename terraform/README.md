@@ -18,7 +18,9 @@ Provision it with Terraform
 There are three commands which are pretty much required to provision the infrastructure using Terraform.
 
 $ terraform init 
+
 $ terraform plan
+
 $ terraform apply
 
 
