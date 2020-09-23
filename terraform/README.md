@@ -8,6 +8,7 @@ Prerequisites
 There are only two prerequisites for this:
 
 1.Terraform – Installation instructions are covered in my previous blog here.
+
 2.Free account with AWS. You can register for free Tier AWS account here.
 
 I have used Ubuntu as the OS in this tutorial but instructions should work with any operating system.
