@@ -36,3 +36,9 @@ This module creates a RDS alongside a variety of related resources,
 - Mysql scripts
 
 After running this terraform modules, Need to restart the RDS services on AWS cloud. 
+
+To run this example you need to execute:
+
+$ terraform init
+$ terraform plan
+$ terraform apply
