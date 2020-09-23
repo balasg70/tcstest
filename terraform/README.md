@@ -14,6 +14,14 @@ This module creates a VPC alongside a variety of related resources, including:
 - An Internet Gateway
 - A EC2 instance
 
+To run this example you need to execute:
+
+$ terraform init
+
+$ terraform plan
+
+$ terraform apply
+
 Example usage:
 
 ```hcl
