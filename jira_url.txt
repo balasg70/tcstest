@@ -48,3 +48,5 @@ https://community.atlassian.com/t5/Jira-Software-articles/The-Kanban-Methodology
 How to use Kanban in Jira Projects
 
 https://community.atlassian.com/t5/New-to-Jira-articles/How-to-get-started-with-kanban-in-Jira-Software-team-managed/ba-p/1786001
+
+https://support.atlassian.com/jira-work-management/docs/how-to-create-workflows/
